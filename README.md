@@ -9,7 +9,7 @@ STEP 2:
 
 STEP 3: 
         For our project, We've created a basic flask Hello world. And this doesnt have any database or any higher dependencies implemented.
-        The dockerfile should be named 'Dockerfile'. No file format or extensiona is required.
+        The dockerfile should be named 'Dockerfile'. No file format or extensions is required.
 
 STEP 4:
         Next create a requirements.txt file containing the dependencies along with their version required for our project.

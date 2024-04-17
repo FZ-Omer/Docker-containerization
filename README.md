@@ -51,6 +51,7 @@ Here for our project in our company we used vps ubuntu hosting as our server
 STEP 1:
         Docker installation on our server. Kindly go through the below documentations for step by step process
     https://docs.docker.com/engine/install/ubuntu/ --- follow the first method which is Install using the apt repository
+    Make sure you are logged in in the hosting side server also.
 
 STEP 2:
        Pull the image to our server docker engine from docker hub using:

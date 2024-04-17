@@ -57,4 +57,16 @@ STEP 4:
 
         sudo ln -s /etc/nginx/sites-available/dockertest /etc/nginx/sites-enabled/
 
+STEP 5:
+        Now restart the nginx server for the changes to take place.
+
+        sudo systemctl restart nginx
+
+STEP 6:
+        Now run the docker image so that the container starts running
+
+        docker run -d -p 8080:5000 username/image_build_name:v
+
+Now the website should be up and running. It should show up in the provided domain name.
+
         

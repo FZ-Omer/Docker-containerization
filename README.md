@@ -52,5 +52,9 @@ STEP 3:
         Since we are using nginx here we have to set up a .config file in etc/nginx/sites-available/filename.config
         
         (Check our repo for how to structure the config file )
+STEP 4:
+        Now we have to link the config file from the sites avaialable folder to the sites enabled folder.
+
+        sudo ln -s /etc/nginx/sites-available/dockertest /etc/nginx/sites-enabled/
 
         
